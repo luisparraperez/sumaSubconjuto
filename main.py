@@ -4,7 +4,6 @@ class Resultado:
         self.valor=valor
         self.resultado=[]
         self.sumaResto=self.sumaInicial()
-        self.subconjunto=[ [] for x in range(1,len(self.conjunto)+1)]
         #print self.subconjunto
         subconjunto=[]
         self.solucion(0,0,self.sumaResto,subconjunto)
